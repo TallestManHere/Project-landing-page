@@ -64,15 +64,19 @@ button {
     width: 150px;
     height: 150px;
     border: 3px red solid;
+    border-radius: 10px;
 
 }
 
 
-.projects-section {
+.projects-section {    
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-evenly;
+}
+
+.text {
+    display: block;
 }
 
 /* This is the peojects area */
